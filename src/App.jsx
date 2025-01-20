@@ -58,7 +58,7 @@ function App() {
             />
           </div>
           <div className="flex lg:flex-row flex-col gap-6 m-5 mt-10">
-            <div className="bg-white rounded-md p-4 w-full">
+            <div className="bg-white rounded-md p-4 w-full flex justify-center items-center flex-col">
               <h3 className="text-lg font-medium mb-4 text-gray-500 flex items-center justify-center">India <ChevronRight className="w-5 h-5" /> Statewise App Registered Users Count</h3>
               <img className='w-1/2 my-8 object-cover mx-auto' src='/map.avif' />
 

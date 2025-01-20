@@ -3,7 +3,7 @@ export function StatsCard({ title, value, lastSevenDays }) {
         <div className={`p-4 rounded-lg shadow-md hover:bg-[#c8e1f9] hover:shadow-xl transition-all cursor-pointer bg-white flex-grow mt-2`}>
             <h3 className="text-gray-500 text-md font-medium">{title}</h3>
             <p className="text-lg font-semibold text-gray-500 mt-1">{value}</p>
-            <hr className="mt-4"/>
+            <div className="mt-4 bg-[#3741514a] h-px"/>
             {lastSevenDays && (
                 <div className="mt-4">
                     <p className="text-xs text-gray-500">Last 7 Days</p>
